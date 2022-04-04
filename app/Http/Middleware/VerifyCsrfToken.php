@@ -13,5 +13,9 @@ class VerifyCsrfToken extends Middleware
      */
     protected $except = [
         //
+        'http://127.0.0.1/Nomina/public/empleado/add',
+        'http://127.0.0.1/Nomina/public/empleado/update',
+        'http://127.0.0.1/Nomina/public/empleado/delete/*',
+        'http://127.0.0.1/Nomina/public/empleado/active',
     ];
 }
